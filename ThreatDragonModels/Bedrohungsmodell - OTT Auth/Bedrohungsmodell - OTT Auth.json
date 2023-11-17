@@ -55,8 +55,8 @@
           },
           {
             "position": {
-              "x": 270.99999999999994,
-              "y": -2
+              "x": 275.99999999999994,
+              "y": -40
             },
             "size": {
               "width": 130,
@@ -86,11 +86,11 @@
               "threats": [
                 {
                   "id": "90095029-1785-4365-8aed-48a0902657db",
-                  "title": "New generic threat",
+                  "title": "Identity Spoofing",
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Spoofing",
-                  "description": "Angreifer gibt sich als anderen Nutzer aus ",
+                  "description": "Angreifer gibt sich als anderen Nutzer aus.\nCAPEC_ID:151",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "Generic",
                   "new": false,
@@ -120,8 +120,8 @@
           },
           {
             "position": {
-              "x": 635,
-              "y": -50
+              "x": 770,
+              "y": -120
             },
             "size": {
               "width": 130,
@@ -331,11 +331,24 @@
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Denial of service",
-                  "description": "Überlastung des Systems um andere Benutzer zu sperren",
+                  "description": "Überlastung des Systems um andere Benutzer zu sperren.\nID: ",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "Generic",
                   "new": false,
                   "number": 141,
+                  "score": ""
+                },
+                {
+                  "id": "41fb2db6-e0c9-4076-898e-2cbfbb231444",
+                  "title": "New generic threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "Generic",
+                  "new": true,
+                  "number": 0,
                   "score": ""
                 }
               ],
@@ -507,7 +520,12 @@
             "target": {
               "cell": "a1d5bbe6-465f-43bb-bd96-7ce687db37aa"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 550,
+                "y": 60
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -676,12 +694,12 @@
                 "y": 460
               },
               {
-                "x": 800,
-                "y": 280
+                "x": 950,
+                "y": 290
               },
               {
-                "x": 740,
-                "y": -160
+                "x": 910,
+                "y": -170
               },
               {
                 "x": 550,
@@ -844,8 +862,8 @@
             },
             "vertices": [
               {
-                "x": 529,
-                "y": 769
+                "x": 470,
+                "y": 710
               }
             ]
           },
@@ -1114,7 +1132,12 @@
             "target": {
               "cell": "9c058898-ed0f-400c-aea7-08d7fc2bd3af"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 670,
+                "y": 130
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1356,12 +1379,12 @@
                 "y": 563
               },
               {
-                "x": 359,
-                "y": 609
+                "x": 300,
+                "y": 540
               },
               {
-                "x": 389,
-                "y": 698
+                "x": 250,
+                "y": 740
               },
               {
                 "x": 654,
@@ -1479,8 +1502,8 @@
           },
           {
             "position": {
-              "x": 390,
-              "y": 615
+              "x": 275.99999999999994,
+              "y": 600
             },
             "size": {
               "width": 120,
@@ -1578,8 +1601,8 @@
           },
           {
             "position": {
-              "x": 630,
-              "y": 192
+              "x": 765,
+              "y": 182
             },
             "size": {
               "width": 140,
@@ -1610,15 +1633,15 @@
               "threats": [
                 {
                   "id": "6f7eb544-3620-4e8b-b647-77015bde6145",
-                  "title": "New generic threat",
+                  "title": "Flooding ",
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Denial of service",
-                  "description": "Angreifer überlastet den Prozess um ",
+                  "description": "Angreifer überlastet den Prozess um Kryptographie zu umgehen\nID: 125 Flooding",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "Generic",
-                  "new": true,
-                  "number": 0,
+                  "new": false,
+                  "number": 145,
                   "score": ""
                 }
               ],
@@ -1671,19 +1694,6 @@
                   "modelType": "Generic",
                   "new": false,
                   "number": 142,
-                  "score": ""
-                },
-                {
-                  "id": "992e20d8-c9d9-4bcb-9da4-55f28e1afe8e",
-                  "title": "New generic threat",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Information disclosure",
-                  "description": "Der Anrgeifer",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "Generic",
-                  "new": true,
-                  "number": 0,
                   "score": ""
                 }
               ],
@@ -1804,7 +1814,7 @@
     ],
     "reviewer": "Georg Neugebauer",
     "diagramTop": 10,
-    "threatTop": 144
+    "threatTop": 148
   },
   "version": "2.1.1"
 }
