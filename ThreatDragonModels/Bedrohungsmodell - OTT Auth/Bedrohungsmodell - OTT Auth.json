@@ -1202,54 +1202,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "überwacht",
-              "description": "",
-              "outOfScope": false,
-              "isBidirectional": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "51fb671d-b870-45ad-b515-dac489d29d76",
-            "labels": [
-              "überwacht"
-            ],
-            "source": {
-              "cell": "94f68ce7-aa88-45a4-ba41-c0b62d6a959c"
-            },
-            "target": {
-              "cell": "9c058898-ed0f-400c-aea7-08d7fc2bd3af"
-            },
-            "vertices": [
-              {
-                "x": 540,
-                "y": 140
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "5. OTT",
               "description": "",
               "outOfScope": false,
@@ -1395,6 +1347,54 @@
             "target": {
               "cell": "08b1da35-cfc1-4d0a-ac06-d313328c475b"
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "überwacht",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "3d5515bc-1e4e-47fd-a28f-b08c303a45d3",
+            "source": {
+              "cell": "9c058898-ed0f-400c-aea7-08d7fc2bd3af"
+            },
+            "target": {
+              "cell": "94f68ce7-aa88-45a4-ba41-c0b62d6a959c"
+            },
+            "labels": [
+              "überwacht"
+            ],
+            "vertices": [
+              {
+                "x": 550,
+                "y": 120
+              }
+            ]
           },
           {
             "position": {
@@ -1615,7 +1615,7 @@
             "id": "9c058898-ed0f-400c-aea7-08d7fc2bd3af",
             "data": {
               "type": "tm.Flow",
-              "name": "SIEM",
+              "name": "Data Flow",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
