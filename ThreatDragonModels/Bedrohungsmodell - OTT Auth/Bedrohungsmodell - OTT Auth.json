@@ -1038,7 +1038,12 @@
             "target": {
               "cell": "9c058898-ed0f-400c-aea7-08d7fc2bd3af"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 650,
+                "y": 80
+              }
+            ]
           },
           {
             "shape": "flow",
