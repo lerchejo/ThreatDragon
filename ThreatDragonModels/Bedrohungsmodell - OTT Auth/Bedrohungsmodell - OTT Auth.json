@@ -2028,8 +2028,8 @@
             },
             "visible": true,
             "shape": "store",
-            "id": "9f20dc8e-6f73-4aac-87f2-aaefc22c4ac2",
             "zIndex": 21,
+            "id": "9f20dc8e-6f73-4aac-87f2-aaefc22c4ac2",
             "data": {
               "type": "tm.Flow",
               "name": "SIEM Database",
@@ -2082,6 +2082,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 22,
             "id": "f404cab0-fc6d-4b35-babb-094955a32875",
             "data": {
               "name": "Export\nProzess",
@@ -2110,8 +2111,7 @@
               "protocol": "",
               "isEncrypted": false,
               "isPublicNetwork": false
-            },
-            "zIndex": 22
+            }
           }
         ],
         "version": "2.1.1",
